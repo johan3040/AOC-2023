@@ -21,6 +21,7 @@ describe('getAnswer', () => {
 
   it('works with overlaping characters', () => {
     expect(getAnswer(['eightwo'])).toBe(82);
+    expect(getAnswer(['oneight'])).toBe(18);
   })
   
   it('runns with correct data', () => {
