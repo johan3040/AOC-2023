@@ -1,4 +1,4 @@
-import { input } from './data.ts';
+import { input } from './data';
 
 const data = input.split('\n');
 
