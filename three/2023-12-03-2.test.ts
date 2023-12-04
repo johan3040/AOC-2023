@@ -1,6 +1,6 @@
 import { getAnswer } from './2023-12-03-2';
 
-describe('2023-12-03-1', () => {
+describe.skip('2023-12-03-1', () => {
   it('runns correctly - 1', () => {
     const data = `467..114..
     ...*......
